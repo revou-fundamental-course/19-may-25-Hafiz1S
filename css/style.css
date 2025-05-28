@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 400px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #suhu-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #suhu-input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  #unit-select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  #button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  #konversi-btn, #reset-btn, #reverse-btn {
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #konversi-btn {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  #reset-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  #reverse-btn {
+    background-color: #03A9F4;
+    color: #fff;
+  }
+  
+  
+  
+  #hasil-container {
+    margin-top: 20px;
+  }
+  
+  #hasil {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #penjelasan {
+    font-size: 18px;
+    color: #666;
+  }

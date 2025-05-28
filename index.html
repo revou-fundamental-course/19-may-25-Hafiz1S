@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konversi Suhu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Konversi Suhu</h1>
+    <form id="suhu-form">
+      <input type="number" id="suhu-input" placeholder="Masukkan suhu">
+      <select id="unit-select">
+        <option value="celcius">Celcius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+      </select>
+      <div id="button-container">
+        <button id="konversi-btn">Konversi</button>
+        <button id="reset-btn">Reset</button>
+        <button id="reverse-btn">Reverse</button>
+      </div>
+    </form>
+    <div id="hasil-container">
+      <p id="hasil"></p>
+      <p id="penjelasan"></p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
